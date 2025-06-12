@@ -7,7 +7,7 @@ from utils.recycle_info import recycle_guide
 # Load model
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model('model/DenseNet121_trashnetmerged_best_model.h5')
+    return tf.keras.models.load_model('models/DenseNet121_trashnetmerged_best_model.h5')
 
 model = load_model()
 
